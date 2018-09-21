@@ -84,16 +84,20 @@ Ejecución
 Utilizando cabal de @cabal es sencillo cargar los ejemplos usando el
 siguiente comando:
 
-> `$ cabal repl`
+```
+$ cabal repl
+```
 
 Y una vez en la REPL, puede correr cada uno de los ejemplos o todos
 usando el `main`:
 
-> `*Examples> main`
+```
+*Examples> main
+```
 
 A continuación se muestran los ejemplos disponibles.
 
-``` {.haskell}
+```haskell
 ------------------------------
 ---------- EJEMPLOS ----------
 ------------------------------
@@ -194,7 +198,7 @@ Se incluye una implementación de la semántica de las Expresiones
 Aritmético Booleanas (**EAB**) cuya tipo de Haskell puede verse a
 continuación.
 
-``` {.haskell language="Haskell"}
+```haskell
 data Exp = V Id | I Int | B Bool | Add Exp Exp 
 | Mul Exp Exp | Succ Exp | Pred Exp | Not Exp 
 | And Exp Exp | Or Exp Exp | Lt Exp Exp | Gt Exp Exp 
