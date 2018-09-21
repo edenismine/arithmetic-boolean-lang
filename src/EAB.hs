@@ -2,8 +2,12 @@
 Module      : EAB
 Description : Simple implementación de la sintáxis del lenguaje de Expresiones Aritmético Booleanas
 License     : MIT
-Author      : Luis Daniel Aragon Bermudez
-Maintainer  : daniel.aragon@ciencias.unam.mx
+Author      :
+  - Luis Daniel Aragon Bermudez
+  - César Gustavo Sánchez de la Rosa
+Maintainer  :
+  - daniel.aragon@ciencias.unam.mx
+  - cesartavo@ciencias.unam.mx
 -}
 module EAB(
   Id,

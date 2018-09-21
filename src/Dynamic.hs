@@ -1,4 +1,15 @@
-module Practica2 where
+{-|
+Module      : Dynamic
+Description : Simple implementación de la semántica dinámica de Expresiones Aritmético Booleanas
+License     : MIT
+Author      :
+  - Luis Daniel Aragon Bermudez
+  - César Gustavo Sánchez de la Rosa
+Maintainer  :
+  - daniel.aragon@ciencias.unam.mx
+  - cesartavo@ciencias.unam.mx
+-}
+module Dynamic where
 import           EAB
 
 type Exception = String
