@@ -7,7 +7,7 @@ Maintainer  : daniel.aragon@ciencias.unam.mx
 -}
 module EAB(
   Id,
-  Exp,
+  Exp(..),
   Sub,
   frVars,
   subst,
